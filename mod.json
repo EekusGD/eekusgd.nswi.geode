@@ -1,0 +1,57 @@
+{
+	"geode": "3.4.0",
+	"gd": {
+		"win": "2.206",
+		"android": "2.206"
+	},
+	"version": "v1.0.0-beta.1",
+	"id": "eekusgd.nswi",
+	"name": "nSWI",
+	"developer": "EekusGD",
+	"description": "mod",
+	"dependencies": [
+		{
+			"id": "geode.node-ids",
+			"version": ">=v1.1.4",
+			"importance": "required"
+		},
+		{
+			"id": "fig.auth",
+			"version": ">=v1.7.1",
+			"importance": "required"
+		}
+	],
+	"settings": {
+		"Change_name": {
+			"name": "Change name",
+			"description": "Changes your name. (only in mod)",
+			"type": "input",
+			"default": ""
+		},
+		"Change_Description": {
+			"name": "Change Description",
+			"description": "Changes your description.",
+			"type": "input"
+         "default": ""
+		},
+		"Import_account_file": {
+			"name": "Import account file",
+			"description": "Import .user file (you can create it by yourself) to create your account.",
+			"type": "file",
+			"default": ""
+		},
+},
+	"resources": {
+		"files": [
+            "resources/saveaccount.js",
+            "resources/changeloginfo.md",
+			"resources/accountuser.user",
+            "resources/accountre.re",
+            "resources/account_savecode.json",
+            "resources/account_ban_system.so"
+        ]
+    },
+	"repository": "",
+	"tags": ["Online"]
+
+}
