@@ -1,0 +1,13 @@
+"account" {
+"saved_account_files": [
+"accountre.re", "accountuser.user"
+]
+"account_save_systems": [
+"saved_account_files", "saveaccount.js"
+}
+"account": true,
+"account_check: {
+"account_antivirus": [
+"account": false
+]
+}
